@@ -124,6 +124,22 @@
     margin-bottom: 10px;
   }
 
+  /* sponsors styles */
+  .sponsors{
+    text-align: center;
+  }
+
+.sponsors-img-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+.sponsors-img-container img{
+  width: 165px;
+}
 
   /* responsive media query */
   /* mobile devices */
@@ -132,8 +148,9 @@
       padding: 20px;
     }
     nav,
-    .teams-container
-    .facts-card-container
+    .teams-container,
+    .facts-card-container,
+    .sponsors-img-container
     {
       flex-direction: column;
     }
