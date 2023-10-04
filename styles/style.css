@@ -181,6 +181,24 @@
   width: 165px;
 }
 
+/* footer styles */
+footer{
+  margin-bottom: 200px;
+  margin-top: 120px;
+  
+}
+.footer-para{
+  color: var(--Dark-02, #424242);
+  text-align: center;
+  padding: 30px;
+  margin-left: 240px;
+  margin-right: 240px;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 8px;
+  background: #FFF4E7;
+}
+
   /* responsive media query */
   /* mobile devices */
   @media screen and (max-width:576px) {
